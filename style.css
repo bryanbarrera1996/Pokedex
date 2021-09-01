@@ -70,68 +70,6 @@ body {
 }
 
 
-/* */
-
-
-/* 
-.o-text-left {
-    padding-left: 8px;
-    padding-top: 10px;
-    float: left;
-    position: relative;
-    width: 45%;
-    height: auto;
-}
-
-.o-text-right {
-    padding-left: 8px;
-    padding-top: 10px;
-    margin-left: 10px;
-    float: left;
-    position: relative;
-    width: 45%;
-    height: auto;
-}
-
-.o-text-info {
-    font-weight: bold;
-    font-size: 3vw;
-}
-
-
-
-.o-content-pokebox {
-    width: 100%;
-    padding-top: 20px;
-    padding-left: 20px;
-}
-
-.o-pokebox {
-    width: 4vw;
-    height: 4vw;
-    background-color: #bcbcbc;
-    border-radius: 9px;
-    float: left;
-    position: relative;
-    margin-left: 30px;
-}
-
-.o-pokebox :hover {
-    width: 4vw;
-    height: 4vw;
-    border-radius: 9px;
-    cursor: pointer;
-    background-color: #787878;
-}
-
-.o-img-pokebox {
-    width: 3vw;
-    height: 3vw;
-    padding-top: 6px;
-    padding-left: 7px;
-} */
-
-
 /* Extra small smartphone */
 
 @media only screen and (max-width: 600px) {
@@ -243,7 +181,7 @@ body {
 /************************************************************************************************/
 
 
-/* Size por Smarthphones*/
+/* Size por Tablets or laptops*/
 
 @media only screen and (min-width: 600px) {
     .o-img__logo {
@@ -351,6 +289,9 @@ body {
     }
 }
 
+
+/* Large laptops*/
+
 @media only screen and (min-width: 992px) {
     .o-l-img__logo {
         width: 4vw;
@@ -363,6 +304,9 @@ body {
         font-size: 2.5vw;
     }
 }
+
+
+/* Large desktops*/
 
 @media only screen and (min-width: 1200px) {
     .o-xl-text-header {
@@ -379,6 +323,9 @@ body {
         font-size: 2vw;
     }
 }
+
+
+/*Screen in 4k*/
 
 @media only screen and (min-width: 2180px) {
     .o-xl-header-pokedex {
